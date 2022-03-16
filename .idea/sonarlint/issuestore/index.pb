@@ -1,0 +1,25 @@
+
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+j
+:src/main/java/com/itheima/util/SqlSessionFactoryUtils.java,4\c\4c69fdd49d7cef9678168b1dcd6ab4882b2715df
+[
++src/main/webapp/element-ui/types/table.d.ts,b\c\bc57a8d85bb252a04e0241ca20fd32a990f61c3c
+o
+?src/main/java/com/itheima/web/servlet/old/SelectAllServlet.java,2\2\22d2aec99d463d635d254a518f3e3bd49a45945e
+O
+src/main/webapp/WEB-INF/web.xml,2\e\2e22b6edd746fa3dc40ad7276c87c8d87d72a392
+\
+,src/main/java/com/itheima/pojo/PageBean.java,b\a\ba70d989cba3a7ba16ea32424b4a43bc43c51089
+f
+6src/main/java/com/itheima/web/servlet/BaseServlet.java,b\8\b80701643e606398074833c47c02e65fec416860
+c
+3src/main/java/com/itheima/service/BrandService.java,e\e\ee26d7e413dc59aea3d476662c7f473b01d240d2
+g
+7src/main/java/com/itheima/web/servlet/BrandServlet.java,3\9\3922b6e528f749e05846788298ca9cc31189ce15
+l
+<src/main/java/com/itheima/service/impl/BrandServiceImpl.java,c\3\c3f4a7b943914dfd0b92c984404433de573d6ff0
+a
+1src/main/java/com/itheima/mapper/BrandMapper.java,c\5\c5024885d3cd3a0499fd213172afe8d02b2e713b
+Y
+)src/main/java/com/itheima/pojo/Brand.java,9\1\919f36e15e987a02ee9bdaa1f7171e2345f4eafd

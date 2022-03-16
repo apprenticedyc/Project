@@ -1,0 +1,19 @@
+
+
+java:S1130"wRemove the declaration of thrown exception 'javax.servlet.ServletException', as it cannot be thrown from method's body.(Ê«‹¢
+D
+java:S1172".Remove this unused method parameter "request".(Ê«‹¢
+’
+java:S1130""wRemove the declaration of thrown exception 'javax.servlet.ServletException', as it cannot be thrown from method's body.(‘™šóüÿÿÿÿ
+
+java:S1130:"wRemove the declaration of thrown exception 'javax.servlet.ServletException', as it cannot be thrown from method's body.(Ü‘Ê²
+
+java:S1130R"wRemove the declaration of thrown exception 'javax.servlet.ServletException', as it cannot be thrown from method's body.(ˆËÒê
+s
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(Ç›úØúÿÿÿÿ
+s
+java:S1192"XDefine a constant instead of duplicating this literal "text/json;charset=utf-8" 3 times.(˜äüÿÿÿÿ
+f	java:S117U"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôˆ¢
+f	java:S117V"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍÍƒ§
+f	java:S117o"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôˆ¢
+f	java:S117p"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍÍƒ§

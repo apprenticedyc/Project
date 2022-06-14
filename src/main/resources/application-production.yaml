@@ -8,7 +8,7 @@ spring:
     name: user-center
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://114.132.160.243:3306/user-center?useUnicode=true&characterEncoding=utf8
+    url: jdbc:mysql://服务器ip/user-center?useUnicode=true&characterEncoding=utf8
     username: root
     password: 密码
   session:

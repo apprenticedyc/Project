@@ -9,5 +9,4 @@ import javax.annotation.Resource;
 class UserCenterApplicationTests {
     @Resource
     private UserMapper userMapper;
-
 }

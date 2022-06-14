@@ -9,7 +9,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/user-center?useUnicode=true&characterEncoding=utf8
     username: root
-    password: dyc121654
+    password: 密码
   session:
     timeout: 86400 #session失效时间一天
 mybatis-plus:

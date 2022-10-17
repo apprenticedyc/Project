@@ -2,6 +2,9 @@ server:
   port: 8081
   servlet:
     context-path: /api
+    session:
+      cookie:
+        domain:
 spring:
   application:
     name: user-center
@@ -9,15 +12,31 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/user-center?useUnicode=true&characterEncoding=utf8
     username: root
-    password: 密码
+    password: dyc121654
   session:
-    timeout: 86400 #session失效时间一天
+    # session失效时间(分钟)
+    timeout: 86400
+    # 修改session储存格式
+    store-type: redis
+  mvc:
+    pathmatch:
+      # 如果使用的是Knife4j 2.x版本，并且Spring Boot版本高于2.4,那么需要在Spring Boot的yml文件中做如下配置：
+      matching-strategy: ant_path_matcher
+
+  # redis 配置
+  redis:
+    port: 6379
+    host: localhost
+    database: 0 #redis默认使用哪个库 redis有16个库默认使用0号库
+
 mybatis-plus:
   type-aliases-package: com.hex.usercenter.mapper
   configuration:
-    map-underscore-to-camel-case: true
+    map-underscore-to-camel-case: true # 开启后 可以将数据库下划线字段与实体驼峰格式属性进行映射
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl   # 开启mybatis日志功能
   global-config:
     db-config:
       logic-delete-field: isDelete #逻辑删除字段
       logic-delete-value: 1 # 逻辑已删除值(默认为 1)
       logic-not-delete-value: 0 # 逻辑未删除值(默认为 0)
+

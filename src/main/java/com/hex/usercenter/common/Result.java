@@ -10,8 +10,8 @@ import java.util.List;
 /**
  * @author Hex
  * @since 2022/6/5
- * Description
- */
+ * Description 通用返回结果
+ * */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

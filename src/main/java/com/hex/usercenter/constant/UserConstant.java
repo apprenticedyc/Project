@@ -27,4 +27,5 @@ public interface UserConstant {
      * 超管权限等级
      */
     public static final int AUTHORITY_SUPERVISOR = 2;
+
 }

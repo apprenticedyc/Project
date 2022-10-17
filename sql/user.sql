@@ -1,4 +1,3 @@
--- auto-generated definition
 create table user
 (
     user_name     varchar(256)                       null comment '用户昵称',

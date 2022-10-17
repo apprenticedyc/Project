@@ -8,7 +8,7 @@ package com.hex.usercenter.common;
  */
 public enum ErrorCode {
     PARAMS_ERROR(4000,"请求参数错误",""),
-    PARAMS_NULL_ERROR(4001,"请求数据为空",""),
+    PARAMS_NULL_ERROR(4001,"没有该数据",""),
     NO_AUTHORITY_ERROR(40101,"无权限",""),
     NOT_LOGIN(40100,"未登录",""),
     SYSTEM_ERROR(50000,"系统内部异常","");
